@@ -5,3 +5,4 @@ const quotes = quotesContent.split("\n").filter(q => q.trim() !== "");
 const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 tR += `> 💡 ${randomQuote}`;
 %>
+#not supported use .js instead
